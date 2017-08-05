@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.businesscard.MainActivity"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Pizza Hut"
+        android:textSize="80dp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:scaleType="center"
+        android:src="@drawable/ls" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:fontFamily="casual"
+        android:textColor="@android:color/black"
+        android:text="044 3988 3988"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:fontFamily="casual"
+        android:textColor="@android:color/black"
+        android:text="pizzahut@gmail.com"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:fontFamily="casual"
+        android:textColor="@android:color/black"
+        android:text=" 10AM - 10PM "/>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
